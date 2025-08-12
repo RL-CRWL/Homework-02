@@ -121,8 +121,6 @@ plt.bar(['Random', 'Greedy'], [avg_random, avg_greedy], color=['red','green'])
 plt.ylabel('Average Return over 20 runs')
 plt.title('Agent Performance')
 plt.show()
-
-
 env.reset()
 _, rand_traj = random_agent(env)
 env.reset()
